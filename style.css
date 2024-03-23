@@ -1,0 +1,249 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+    ;
+}
+.warapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color: #ffffff; 
+}
+.menu{
+    float: right;
+
+
+}
+form{
+    float: right;
+    padding-left: 1cm;
+    
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #1e9fc7;
+    
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    color: #ffffff;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.kolom .deskripsi{
+    font-size: 18px;
+    line-height: 28px;
+    font-family: montserrat,sans-serif;
+    color:black;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family:montserrat,sans-serif ;
+    font-weight: 900;
+    font-size: 36px;
+    margin: 0, 0, 60px;
+    width: 100%;
+    line-height: 46px;
+    text-align: center;
+    color: #212121;
+}
+
+.tutor-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex: wrap;
+    display: grid;
+  justify-content: center;
+}
+
+
+.kartu-tutor p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+}
+.gambar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gambar img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .caption {
+    text-align: center;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-weight: bold;
+  }
+
+  footer {
+    background-color: rgb(0, 107, 137);
+    color: rgb(253, 253, 253);
+    padding: 2rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .gambar1 {
+    position: absolute;
+    bottom: -70rem;
+    right: 1rem;
+    max-width: 15;
+  }
+  
+  .gambar1 {
+    width: 1;
+    height: 100;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px); /* Tiga kolom dengan lebar 100px */
+    justify-content: center; /* Konten berada di tengah */
+  }
+  .item img{
+    width: 300px;
+    height: 300px;
+  }
+  .item {
+    text-align: center;
+  }
+  .tengah{
+    display: grid;
+    grid-template-columns: repeat(3, 300px); 
+    justify-content: space-evenly;
+    
+
+  }
+.paragraf1{
+  
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-weight:100;
+    font-family:montserrat,sans-serif;
+
+  }
+  .paragraf2{
+  
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-weight:100;
+    font-family:montserrat,sans-serif;
+  }
+.footer.detail_footer_link ul li{
+  font-family: "lato"!important;
+  font-style:normal ;
+  font-weight: 500;
+  font-size: 0.857rem;
+  color: #ffffff;
+  line-height: 24px;
+  margin-bottom: 24px;
+
+
+}
+footer .detail_footer_link ul {
+    list-style-type: none;
+}
+ul {
+  font-family: "lato" !important;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  float: left;
+}
+.col-md-5 {
+  
+  flex: right;
+}
+hr {
+  border: none;
+  height: 1px;
+  color: #333; 
+  background-color: #333;
+}
+.footer .content img {
+  width: 12px !important;
+  margin-bottom: 20px !important;
+}
+.img-fluid {
+  font-family: "lato" !important;
+  max-width: 50%;
+  height: auto;
+  float: left;
+}
+img {
+  vertical-align: auto;
+  border-style: none;
+  float: left;
+}
+
+
+
+
+
+
+
+
